@@ -1,5 +1,5 @@
 {
-  "name": "gal-cernilogar",
+  "name": "gal",
   "private": true,
   "scripts": {
     "build": "nuxt build",
