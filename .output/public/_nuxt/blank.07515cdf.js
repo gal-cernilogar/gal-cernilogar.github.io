@@ -1,0 +1,1 @@
+import{i as o,f as t,r as n,o as r}from"./entry.b2717397.js";const s={},a={id:"blank-layout"};function c(e,l){return r(),t("div",a,[n(e.$slots,"default")])}const d=o(s,[["render",c]]);export{d as default};
