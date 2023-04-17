@@ -13,7 +13,7 @@
 const isMenuShowing = useState('isMenuShowing');
 
 const items = [
-  { icon: 'solar:planet-bold', label: 'Journey Through the Solar System', link: '/' },
-  { icon: 'solar:gamepad-bold', label: 'Playground', link: '/' }
+  { icon: 'solar:planet-bold', label: 'Journey Through the Solar System', link: '/journey-through-the-solar-system/' },
+  { icon: 'solar:gamepad-bold', label: 'Playground', link: '/playground/' }
 ]
 </script>
