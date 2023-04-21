@@ -1,0 +1,1 @@
+import{A as n,s as o,B as t}from"./entry.52abfeeb.js";Object.getOwnPropertyNames(Object.prototype).sort().join("\0");const e={},i=n(e);function a(){const p=o();return p._appConfig||(p._appConfig=t(i)),p._appConfig}export{a as u};
