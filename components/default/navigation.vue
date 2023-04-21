@@ -1,5 +1,5 @@
 <template>
-  <nav class="hidden lg:flex flex-col gap-2 overflow-y-auto max-w-fit h-full">
+  <nav class="flex flex-col gap-2 overflow-y-auto pb-20 w-full max-w-full lg:max-w-fit h-full">
     <NuxtLink v-for="item in items" :to="item.link" class="flex gap-2 rounded-full pr-6 opacity-50 transition-all"
       :class="isMenuShowing ? 'hover:bg-neutral-300 dark:hover:bg-neutral-700' : ''">
       <Icon :name="item.icon" size="3em" class="rounded-full p-2 min-w-[3rem] opacity-75 transition-all"
