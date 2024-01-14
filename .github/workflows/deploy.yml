@@ -10,13 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: corepack enable
-      - uses: actions/setup-node@v3
+      - name: Setup Node
+        run: corepack enable
+        uses: actions/setup-node@v3
         with:
           node-version: "20"
       # Pick your own package manager and build script
-      - run: npm ci
-      - run: npm run generate
+      - name: Install dependencies
+        run: npm ci
+      - name: Generate static files
+        run: npm run generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
