@@ -1,0 +1,23 @@
+:root {
+  --dark-scheme-background-color: black;
+  --dark-scheme-color: white;
+  --dark-scheme-link-color: #3b82f6;
+  --dark-scheme-visited-link-color: #a855f7;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: var(--dark-scheme-background-color);
+    color: var(--dark-scheme-color);
+  }
+
+  a {
+    color: var(--dark-scheme-link-color);
+  }
+
+  a:visited {
+    color: var(--dark-scheme-visited-link-color);
+  }
+}
