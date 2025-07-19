@@ -7,6 +7,10 @@
   font-size: 1rem;
 }
 
+:lang(jp) {
+  writing-mode: vertical-rl;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     background-color: var(--dark-scheme-background-color);
