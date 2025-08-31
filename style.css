@@ -11,6 +11,10 @@
   writing-mode: vertical-rl;
 }
 
+nav li {
+  margin-block: 1em;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     background-color: var(--dark-scheme-background-color);
