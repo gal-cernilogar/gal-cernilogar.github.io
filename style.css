@@ -11,6 +11,31 @@
   writing-mode: vertical-rl;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+blockquote {
+  max-inline-size: 80ch;
+}
+
+h1:lang(jp),
+h2:lang(jp),
+h3:lang(jp),
+h4:lang(jp),
+h5:lang(jp),
+h6:lang(jp),
+p:lang(jp),
+li:lang(jp),
+blockquote:lang(jp) {
+  max-inline-size: 40ch;
+}
+
+
 nav li {
   margin-block: 1em;
 }
